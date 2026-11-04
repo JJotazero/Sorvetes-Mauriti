@@ -1,0 +1,92 @@
+h1, h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+h1 { font-size: 50px; }
+h2 { font-size: 30px; }
+
+img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+  transition: border-radius 0.3s;
+}
+
+.logo {
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.35));
+}
+
+.destaque {
+  background-color: lightyellow;
+  color: rgb(26, 106, 177);
+  font-weight: bold;
+  width: fit-content;
+  margin: 15px auto;
+  padding: 8px 24px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+}
+
+body {
+  background-image: url("../assets/img/fundo.svg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgb(55, 101, 142);
+  font-family: Inter, sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  color: lightyellow;
+  text-shadow: none;
+}
+
+footer {
+  background-color: rgb(15, 35, 70);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 20px;
+  margin: 40px -20px -20px;
+}
+
+.chamada {
+  max-width: 800px;
+  margin: 40px auto 20px;
+  background-color: rgb(220, 235, 250);
+  border-left: 6px solid rgb(1, 86, 160);
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+
+.chamada p {
+  color: rgb(10, 40, 90);
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.chamada a {
+  display: inline;
+  font-size: inherit;
+  color: rgb(1, 86, 160);
+}

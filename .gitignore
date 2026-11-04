@@ -1,0 +1,8 @@
+# Arquivos fora do deploy
+_arquivo/
+
+# Sistema / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/

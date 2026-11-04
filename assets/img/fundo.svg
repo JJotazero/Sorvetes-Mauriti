@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a6cc4"/>
+      <stop offset="0.55" stop-color="#0156a0"/>
+      <stop offset="1" stop-color="#003f7d"/>
+    </linearGradient>
+    <radialGradient id="brilho" cx="0.5" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <!-- gota igual às da logo -->
+    <path id="gota" d="M0,-34 C12,-14 18,-2 18,10 A18,18 0 0 1 -18,10 C-18,-2 -12,-14 0,-34Z"/>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#ceu)"/>
+  <rect width="1920" height="1080" fill="url(#brilho)"/>
+
+  <!-- nuvens em formato de mancha, como o fundo da logo -->
+  <g fill="#2b8ee6" opacity="0.28">
+    <g>
+      <circle cx="140" cy="160" r="150"/>
+      <circle cx="290" cy="110" r="110"/>
+      <circle cx="330" cy="250" r="120"/>
+      <circle cx="170" cy="320" r="110"/>
+      <circle cx="40" cy="280" r="100"/>
+    </g>
+    <g>
+      <circle cx="1760" cy="860" r="170"/>
+      <circle cx="1590" cy="920" r="120"/>
+      <circle cx="1650" cy="1020" r="130"/>
+      <circle cx="1860" cy="1000" r="120"/>
+      <circle cx="1880" cy="740" r="110"/>
+    </g>
+    <g>
+      <circle cx="1700" cy="170" r="90"/>
+      <circle cx="1800" cy="120" r="70"/>
+      <circle cx="1820" cy="230" r="80"/>
+      <circle cx="1690" cy="270" r="60"/>
+    </g>
+    <g>
+      <circle cx="210" cy="900" r="100"/>
+      <circle cx="320" cy="960" r="80"/>
+      <circle cx="120" cy="1000" r="90"/>
+      <circle cx="250" cy="1050" r="70"/>
+    </g>
+  </g>
+
+  <!-- gotas espalhadas -->
+  <g fill="#4aa6f0" opacity="0.35">
+    <use href="#gota" transform="translate(470 120) rotate(25) scale(1.4)"/>
+    <use href="#gota" transform="translate(540 230) rotate(60) scale(0.9)"/>
+    <use href="#gota" transform="translate(1480 110) rotate(-30) scale(1.2)"/>
+    <use href="#gota" transform="translate(1560 330) rotate(-70) scale(0.8)"/>
+    <use href="#gota" transform="translate(1400 820) rotate(-140) scale(1.3)"/>
+    <use href="#gota" transform="translate(1480 690) rotate(-110) scale(0.8)"/>
+    <use href="#gota" transform="translate(470 880) rotate(140) scale(1.2)"/>
+    <use href="#gota" transform="translate(420 760) rotate(110) scale(0.7)"/>
+    <use href="#gota" transform="translate(90 560) rotate(80) scale(1.1)"/>
+    <use href="#gota" transform="translate(1840 520) rotate(-80) scale(1.1)"/>
+    <use href="#gota" transform="translate(760 1010) rotate(170) scale(0.9)"/>
+    <use href="#gota" transform="translate(1150 60) rotate(10) scale(0.8)"/>
+  </g>
+
+  <!-- bolinhas brancas suaves -->
+  <g fill="#ffffff" opacity="0.18">
+    <circle cx="620" cy="80" r="6"/>
+    <circle cx="880" cy="160" r="4"/>
+    <circle cx="1280" cy="200" r="5"/>
+    <circle cx="1350" cy="980" r="6"/>
+    <circle cx="980" cy="1030" r="4"/>
+    <circle cx="560" cy="640" r="5"/>
+    <circle cx="1620" cy="520" r="4"/>
+    <circle cx="300" cy="520" r="5"/>
+    <circle cx="1100" cy="880" r="3"/>
+    <circle cx="720" cy="420" r="3"/>
+  </g>
+</svg>
